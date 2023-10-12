@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("img/snow.webp");
+    background-size: cover; 
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100hv;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+h1{
+    font-weight: normal;
+    font-size: 64px;
+    margin-top: 150px;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 92px;
+    line-height: 1;
+    margin: 16px 32px;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 20px;
+}
